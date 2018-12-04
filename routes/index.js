@@ -36,7 +36,7 @@ router
     //.post('/logout', checkToken, U.logout)                          用户登出（前台删除token即可）
     // .post('/modifyUser', checkToken, U.updateUserMes)                           //更改用户信息
     // .post('/modifyPwd', checkToken, U.resetPwd)                                //更改用户密码
-    .post('/regster',U.register) // 用户注册
+    .post('/register',U.register) // 用户注册
 
     .get('/me', M.getMeInfo)                       //获取个人信息
     .patch('/me', checkToken, M.modifyMeInfo);                   //更改个人信息
