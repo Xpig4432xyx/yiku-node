@@ -9,12 +9,12 @@ const createToken = require('../utils/createToken.js');
 class UserController {
   //用户登录(创建token)
   static async login(ctx) {
-    const {username, password} = ctx.request.body;
+    const {username, password, type} = ctx.request.body;
     if (!username) {
       ctx.throw(400, '用户名不能为空!');
     }
     if (!password) {
-      ctx.throw(400, '用户名不能为空!');
+      ctx.throw(400, '密码不能为空!');
     }
     let result = await User
       .findOne({
@@ -34,11 +34,14 @@ class UserController {
             name: result.name,
             username: result.username,
             createTime: result.createTime,
-            token
+            token,
+            type: type,
+            currentAuthority: 'admin',
+            status: 'ok',
           },
           success: true
         });
-      } else {
+      } else { 
         return ctx.success({
           msg: '密码错误!',
           success: false
@@ -130,7 +133,9 @@ class UserController {
           name: resultData.name,
           username: resultData.username,
           createTime: resultData.createTime,
-          token
+          token,
+          status: 'ok',
+          currentAuthority: 'user'
         },
         success: true
       });

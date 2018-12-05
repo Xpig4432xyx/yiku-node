@@ -16,3 +16,45 @@
 [31m[1m    at user.save.then.catch.err (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/user.js:137:20)[22m[39m
 [31m[1m    at <anonymous>[22m[39m
 [31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m14:40:23.42 <error> BadRequestError: 用户名不能为空![22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at login (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/user.js:14:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m14:43:24.32 <error> BadRequestError: 用户名不能为空![22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at login (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/user.js:14:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m14:51:01.19 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at createTag (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
