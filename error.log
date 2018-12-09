@@ -58,3 +58,333 @@
 [31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
 [31m[1m    at <anonymous>[22m[39m
 [31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m15:21:02.40 <error> BadRequestError: 标签类型不能为空[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at createTag (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/tag.js:8:22)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:28:11)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m15:45:48.51 <error> UnauthorizedError: no token detected in http header Authorization[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:26:18)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m15:48:14.63 <error> UnauthorizedError: no token detected in http header Authorization[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:26:18)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m15:49:21.51 <error> UnauthorizedError: no token detected in http header Authorization[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:26:18)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m15:50:26.51 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:28:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:10:16.71 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:23:22)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:12:48.44 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:14:54.53 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:26:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:20:24.06 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:26:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:21:30.60 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:28:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:26:14.18 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:26:58.39 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:25:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:27:49.96 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:25:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:28:40.83 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:25:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:29:11.35 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:25:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:34:49.39 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:25:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:36:16.24 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:28:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:39:26.09 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:28:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:41:03.50 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:29:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:45:44.87 <error> BadRequestError: 信息填写不完整[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at createArticle (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:10:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:30:9)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:47:29.20 <error> BadRequestError: 信息填写不完整[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at createArticle (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:10:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:30:9)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:48:19.87 <error> BadRequestError: 信息填写不完整[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at createArticle (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:11:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:30:9)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:49:04.36 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:29:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:52:38.51 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:29:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:53:28.98 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:30:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:54:54.32 <error> InternalServerError: 服务器内部错误-数据存储错误！[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at article.save.catch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/controllers/article.js:30:16)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:56:54.82 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:57:12.50 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m16:57:38.51 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m
+[31m[1m17:11:43.22 <error> UnauthorizedError: expired token[22m[39m
+[31m[1m    at Object.throw (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/lib/context.js:97:11)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/checkToken.js:24:16)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at next (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:45:18)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:346:16[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:44:32)[22m[39m
+[31m[1m    at /Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-compose/index.js:36:12[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa-router/lib/router.js:351:31)[22m[39m
+[31m[1m    at dispatch (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)[22m[39m
+[31m[1m    at module.exports (/Users/xiyanxin/workspace/github/blog-demo/yiku-node/middlewares/initAdmin.js:30:11)[22m[39m
+[31m[1m    at <anonymous>[22m[39m
+[31m[1m    at process._tickCallback (internal/process/next_tick.js:188:7) (in errorHandle.js:24)[22m[39m

@@ -5,23 +5,29 @@ moment.locale('zh-cn');
 // title: String == title: { type: String }
 // 文章表共6个字段
 const articleSchema = new Schema({
-    title: String,
-    content: String,
-    abstract: String,
-    publish: {
-        type: Boolean,
-        default: false
-    },
-    createTime: Date,
-    lastEditTime: {
-        type: Date,
-        default: Date.now
-    },
-    tags: [{ type: Schema.Types.ObjectId, ref: 'tag' }]  //type为tag文档的id
+  title: String,
+  author: String,
+  desc:String,
+  keyword:String,
+  content: String,
+  img_url:String,
+  origin:String,
+  type:String,
+  postTags:String,
+  publish: {
+    type: Boolean,
+    default: false
+  },
+  createTime: Date,
+  lastEditTime: {
+    type: Date,
+    default: Date.now
+  },
+  tags: String  //type为tag文档的id
 });
 //必须先set后get
-articleSchema.set('toJSON', { getters: true, virtuals: true });
-articleSchema.set('toObject', { getters: true, virtuals: true });
+articleSchema.set('toJSON', {getters: true, virtuals: true});
+articleSchema.set('toObject', {getters: true, virtuals: true});
 articleSchema.path('createTime').get(function(v) {
   return moment(v).format('YYYY MMMM Do, h:mm:ss a');
 });
