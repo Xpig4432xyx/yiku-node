@@ -41,7 +41,7 @@ class UserController {
           },
           success: true
         });
-      } else { 
+      } else {
         return ctx.success({
           msg: '密码错误!',
           success: false

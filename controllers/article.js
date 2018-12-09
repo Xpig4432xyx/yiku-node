@@ -126,9 +126,9 @@ class ArticleController {
 
   //获取所有文章(包含未发布文章，后台使用)
   static async getAllArticles(ctx) {
+    let limit = parseInt(ctx.query.pageSize) || 10;
+    let page = +(parseInt(ctx.query.pageNum) || 1)
     let tagId = ctx.query.tag;
-    let page = +ctx.query.page;
-    let limit = +ctx.query.limit || 5;
     if (page <= 0) {
       page = 1;
     }
@@ -138,7 +138,7 @@ class ArticleController {
         .find({
           tags: tagId   //{ tags: {"$in": tagARR }}也行
         })
-        .populate('tags')
+        // .populate('tags')
         .exec()
         .catch(err => {
           ctx.throw(500, '服务器内部错误-根据标签查询文档错误!');
@@ -149,7 +149,7 @@ class ArticleController {
         .sort({'createTime': -1})
         .skip(limit * (page - 1))
         .limit(limit)
-        .populate('tags')
+        // .populate('tags')
         .exec()
         .catch(err => {
           ctx.throw(500, '服务器内部错误-分页查找错误!');
@@ -164,7 +164,7 @@ class ArticleController {
       result = await Article
         .find()
         .sort({'createTime': -1})
-        .populate('tags')
+        // .populate('tags')
         .exec()
         .catch(err => {
           ctx.throw(500, '服务器内部错误-查找所有文章错误!');
